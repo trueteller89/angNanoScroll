@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <link rel="uploads/stylesheet" href="style.css">
+    <script src="uploads/jquery.js"></script>
+  <script src="uploads/angular.js"></script>
+  <script src="uploads/nanoscroller.js"></script>
+  <link rel="stylesheet" href="uploads/nanoscroller.css">
+  <script src="uploads/scrollable.js"></script>
+<link rel="stylesheet" href="uploads/bootstrap.min.css">
+<script type="text/javascript" src="uploads/invoke.js"></script>
+  <script src="app.js"></script>
+    <title>nano</title>
+</head>
+
+<body ng-app="app">
+  <h1>Demonstration of scroller</h1>
+ 
+    <div class="col-md-6 col-sm-6" demo-controller>
+      <p>items={{items}}</p>
+    <div class="nano">
+   <div class="nano-content">
+          <p ng-repeat="item in items">This is item {{item}}</p>
+    </div>
+      </div>
+    
+    </div>
+    
+</body>
+
+</html>
