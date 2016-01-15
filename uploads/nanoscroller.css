@@ -2,8 +2,9 @@
 .nano {
   position : relative;
   width    : 200px;
-  height   : 200px;
+  height   : 300px;
   overflow : hidden;
+  border: 1px dotted;
 }
 .nano > .nano-content {
   position      : absolute;
